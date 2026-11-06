@@ -1,7 +1,6 @@
 {
   "name": "dsh-project-skills",
   "version": "0.1.0",
-  "private": true,
   "description": "Discover project .claude/skills and .agents/skills as user-invoked DSH skills that make the agent read the skill file.",
   "type": "module",
   "main": "index.js",
@@ -17,6 +16,27 @@
     "icon.svg",
     "README.md"
   ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "skills",
+    "claude-skills",
+    "agents-skills"
+  ],
+  "author": "hunmer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunmer/dsh-project-skills.git"
+  },
+  "homepage": "https://github.com/hunmer/dsh-project-skills#readme",
+  "bugs": {
+    "url": "https://github.com/hunmer/dsh-project-skills/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=22"
   },
