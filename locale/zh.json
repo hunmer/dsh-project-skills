@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "项目技能",
+    "description": "发现工作区 .claude/skills 与 .agents/skills 中的技能，加入输入框 / 列表；调用时让 Agent 读取技能文件，而不是通过 skill 工具加载正文。"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Project Skills",
+    "description": "Discover skills in the workspace .claude/skills and .agents/skills, list them in the composer / menu, and make the agent read the skill file instead of loading it through the skill tool."
+  }
+}

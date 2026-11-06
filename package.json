@@ -1,0 +1,28 @@
+{
+  "name": "dsh-project-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Discover project .claude/skills and .agents/skills as user-invoked DSH skills that make the agent read the skill file.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
